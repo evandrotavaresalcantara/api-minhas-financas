@@ -10,5 +10,5 @@ app.use(inicial)
 app.use('/lancamento-financeiros', rotasLancamentoFinanceiros)
 
 app.listen(porta, () => {
-    console.log(`Api Inicializada com sucesso, rodando na porta: ${porta} `)
+    console.log(`Api Inicializada com sucesso | rodando na porta: ${porta} `)
 })
