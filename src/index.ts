@@ -2,7 +2,7 @@ import express from 'express'
 import rotasLancamentoFinanceiros from './routes/lancamentoFinanceiros'
 import inicial from './routes/inicial'
 const app = express()
-const porta = 4000
+const porta = 80
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
